@@ -1,0 +1,22 @@
+ion-content {
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .imagen {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    z-index: -1; 
+    border: none;
+  }
+  
+  ion-grid {
+    position: relative;
+    z-index: 1; 
+  }

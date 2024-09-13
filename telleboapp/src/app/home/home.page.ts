@@ -19,7 +19,9 @@ export class HomePage {
     }
   ];
   constructor(private router: Router) {}
-
+  goBack(){
+    this.router.navigate(['/bienvenida']);
+  }
   navigateToOtherPage() {
     if (this.userForm.usuario.trim() === '' || this.userForm.password.trim() === '') {
       const alert = document.querySelector('ion-alert');
